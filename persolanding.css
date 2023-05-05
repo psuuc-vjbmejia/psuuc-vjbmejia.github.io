@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #3FDFD1;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  nav .logo {
+    size: 20px ;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+    color: white;
+    text-justify: center;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #b90c0c;
+  }
+  
+  header {
+    padding-top: 50px;
+    position: relative;
+    height: 200px;
+    background-size;
+}
+  footer{
+    background: #e8a87c;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 10px;
+    color: white;   
+    margin-top: 200px;
+
+
+}
+.logo2{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem  3rem ;
+}
+.navlinks li{
+    margin: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+.SOCMED{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem  1rem ;
+}
+.SOCMED li{
+    margin: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+.SOCMED a{
+    text-decoration: none;
+    color: white;
+}
+.SOCMED a i{
+    font-size: 1.5rem;
+    transition: color .4s ease;
+}
+.SOCMED a:hover i{
+    color: #3d3428;
+}
+.footer-bottom{
+    text-align: center;
+    padding: 50px;
+    background-color: #41b3a3;
+}
+.footer-bottom span{
+    color: #060505;
+}
