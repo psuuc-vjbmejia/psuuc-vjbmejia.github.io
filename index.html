@@ -1,63 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Personal Landing Page</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav>
-      <div class="logo"><img src="logo.png" alt="logo" width="100" height="50"></div>
-      <ul>
-        <li><a href="Personal.html">Home</a></li>
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#">Projects</a></li>
-      </ul>
-    </nav>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & SignUp Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
     
-
-    <header>
-      <div class="hero-image"></div>
-      <div class="header-text">
-        <h1>Welcome to my page</h1>
-        <p>I am a passionate web developer. Hire me for your next project or avail my services today.</p>
-        <a href="#" class="cta-btn">Hire Me</a>
-      </div>
-    </header>    
-    
-    <div class="about">
-    <section id="aboutme" class="aboutMe">
-      <h2>About Me</h2>
-      <p>I am a passionate web developer with 1 year of experience in creating responsive and user-friendly websites. My skills include:</p>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>jQuery</li>
-        <li>Bootstrap</li>
-        <li>PHP</li>
-        <li>MySQL</li>
-      </ul>
-    </section>
+    <div class="custom-shape-divider-bottom-1684995561">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
     </div>
-    
-    <!-- Footer Section -->
-    <footer>
-      <div class="logo2"><img src="logo.png" alt="logo" width="100" height="50" ></div>
-      <ul class="navlinks">
-        <li><a href="Personal.html">Home</a></li>
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#">Projects</a></li>
-      </ul>
-      <ul class="SOCMED">
-        <li><a href="#" ><img src="fb.png" alt="Facebook"  width="25" height="25"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#"><img src="twit.png" alt="Twitter width="25" height="25"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><img src="insta.png" alt="Twitter width="25" height="25"><i class="fab fa-instagram"></i></a></li>
-        <img src="" alt="" sizes="" srcset="">
-      </ul>
-    </footer>
-    <div class="footer-bottom">
-        <p>Legal disclaimer: All content and Information on this website is for informational and educational purposes only and does not constitute educational/teaching advice.</p>
-        <p>&copy; 2023 InfoForge. All rights reserved. <span>Vee Jay Mejia</span></p>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+      <form action="#">
+        <input type="text" placeholder="Enter your email">
+        <input type="password" placeholder="Enter your password">
+        <a href="#">Forgot password?</a>
+        <input type="button" class="button" value="Login">
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+         <label for="check">Signup</label>
+        </span>
       </div>
-  </body>
+    </div>
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="#">
+        <input type="text" placeholder="Enter your email">
+        <input type="password" placeholder="Create a password">
+        <input type="password" placeholder="Confirm your password">
+        <input type="button" class="button" value="Signup">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
